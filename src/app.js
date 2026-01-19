@@ -6,7 +6,7 @@ const app = express();
 
 // ✅ Allow your Vercel frontend
 app.use(cors({
-  origin: "https://pokedex-frontend-beta.vercel.app",
+  origin: "https://pokedex-frontend-git-main-sanketschalwadi-7970s-projects.vercel.app/",
   methods: ["GET"],
   credentials: true
 }));
