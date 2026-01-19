@@ -4,9 +4,9 @@ import pokemonRoutes from "./routes/pokemon.js";
 
 const app = express();
 
-// ✅ Allow your Vercel frontend
+// ✅ Allow your Vercel frontend (FIXED)
 app.use(cors({
-  origin: "https://pokedex-frontend-git-main-sanketschalwadi-7970s-projects.vercel.app/",
+  origin: "https://pokedex-frontend-mu.vercel.app",
   methods: ["GET"],
   credentials: true
 }));
