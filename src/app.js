@@ -4,19 +4,17 @@ import pokemonRoutes from "./routes/pokemon.js";
 
 const app = express();
 
-// 🔒 CORS Configuration
+// ✅ Allow your Vercel frontend
 app.use(cors({
-  origin: "https://pokedex-frontend-wheat.vercel.app",   // ❌ no trailing slash
+  origin: "http://localhost:5173",
   methods: ["GET"],
   credentials: true
 }));
 
 app.use(express.json());
 
-// Routes
-app.use("/api/pokemon", pokemonRoutes);
+app.use("/api", pokemonRoutes);
 
-// Health Check
 app.get("/", (req, res) => {
   res.send("Pokédex API running");
 });
