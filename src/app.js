@@ -6,7 +6,7 @@ const app = express();
 
 // ✅ Allow your Vercel frontend
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://pokedex-frontend-tau.vercel.app/",
   methods: ["GET"],
   credentials: true
 }));
