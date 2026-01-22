@@ -11,7 +11,7 @@ It acts as a clean, optimized proxy over the **PokéAPI**, providing structured 
   [https://pokedex-backend-ffhl.onrender.com](https://pokedex-backend-eu2g.onrender.com)
 
 - **Health Check:**  
-  https://pokedex-backend-ffhl.onrender.com/
+  [https://pokedex-backend-ffhl.onrender.com](https://pokedex-backend-eu2g.onrender.com)/
 
 ---
 
