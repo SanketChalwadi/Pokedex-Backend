@@ -37,4 +37,4 @@ It acts as a clean, optimized proxy over the **PokéAPI**, providing structured 
 
 ## 📦 API Endpoints
 
-### 🔹 List Pokémon
+
